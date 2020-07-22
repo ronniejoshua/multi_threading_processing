@@ -9,7 +9,7 @@ from base_modules.config import credentials
 if __name__ == "__main__":
     # Example of Multi-Threading Data Extraction
     t1 = time.perf_counter()
-    backfill_dates = gen_date_intervals('2020-04-18', '2020-04-27', inv_size=2)
+    backfill_dates = gen_date_intervals('2020-03-01', '2020-04-01', inv_size=31)
     p_extract_voluum_conversions = partial(extract_conversions_data,
                                            fetch_cols=fetch_columns,
                                            credentials=credentials,
