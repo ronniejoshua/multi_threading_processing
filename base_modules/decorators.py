@@ -2,6 +2,14 @@ from functools import wraps
 import time
 
 
+# Functions as Objects/Data/Higher Order Functions - Understanding Decorators
+# Assigning Functions to Variables
+# Defining Functions Inside other Functions
+# Passing Functions as Arguments to other Functions
+# Functions Returning other Functions
+# Nested Functions have access to the Enclosing Function's Variable Scope
+
+
 def timer(func):
     # Enclosing Scope for the Wrapper function
 
