@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-""" Threads that waste CPU cycles """
-
 import os
 import threading
 import time
